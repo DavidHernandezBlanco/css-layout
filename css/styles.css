@@ -18,23 +18,36 @@ body {
 .column-1 {
     width: 100%;
     float: left;
+    background-color: blue;
 }
 
 .column-2 {
     width: 50%;
     float: left;
+    background-color: cadetblue;
 }
 
 .column-3 {
     width: 33.33%;
     float: left;
+    background-color: cornflowerblue;
 }
 
 .column-4 {
     width: 25%;
     float: left;
+    background-color: darkcyan;
 }
 
 @media only screen and (max-width: 600px) {
     /*reglas*/
+    .column-3 {
+        width: 100%;
+    }
+    .column-4 {
+        width: 50%;
+    }
+    #diez {
+        width: 100%;
+    }
 }
